@@ -4,7 +4,10 @@
 namespace App\Model;
 
 
-class Article
+use App\Model\Db\DbTable;
+
+class Article extends DbTable
 {
+    protected $table = 'article';
 
 }
