@@ -4,7 +4,7 @@
 namespace App\Controller;
 
 
-use http\Env\Response;
+use Symfony\Component\HttpFoundation\Response;
 use Twig\Environment;
 
 trait ControllerTrait

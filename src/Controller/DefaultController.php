@@ -15,7 +15,7 @@ class DefaultController extends AbstractController
     {
         //echo '<h1>PAGE ACCUEIL | CONTROLLER</h1>';
         //return new Response('<h1>PAGE ACCUEIL | CONTROLLER | RESPONSE</h1>');
-        return $this->render('Default/home.html.twig');
+        return $this->render('default/home.html.twig');
 
 
     }
