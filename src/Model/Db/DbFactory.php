@@ -3,7 +3,7 @@
 namespace App\Model\Db;
 
 /**
- * Une factory est une créer des objets
+ * Une factory permet créer des objets
  * c'est aussi un design pattern
  */
 

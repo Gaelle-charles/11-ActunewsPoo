@@ -38,7 +38,7 @@ abstract class AbstractController
         $this->container = Container::getInstance();
     }
 
-    protected function getParmater(string $name)
+    protected function getParameter(string $name)
     {
         return $this->container->get( $name );
     }
